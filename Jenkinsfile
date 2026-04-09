@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git '<repo-url>'
+                git 'https://github.com/Krishna2805/DevOps-exp11-12-13.git'
             }
         }
 
